@@ -24,5 +24,6 @@
 
 from pddl import _ROOT_PATH
 
-DOMAIN_GRAMMAR_FILE = _ROOT_PATH / "parser" / "domain.lark"
-PROBLEM_GRAMMAR_FILE = _ROOT_PATH / "parser" / "problem.lark"
+PARSERS_DIRECTORY = _ROOT_PATH / "parser"
+DOMAIN_GRAMMAR_FILE = PARSERS_DIRECTORY / "domain.lark"
+PROBLEM_GRAMMAR_FILE = PARSERS_DIRECTORY / "problem.lark"
